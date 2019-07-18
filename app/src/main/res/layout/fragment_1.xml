@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA8072"
+    tools:context=".Frag1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:text="The word 'queue' is the only word in the English language that is still pronounced the same way when the last four letters are removed.
+\n\nMonths that begin on a Sunday will always have a 'Friday the 13th.'
+\n\nLike fingerprints, everyone's tongue print is different!" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change colour"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"/>
+
+</FrameLayout>

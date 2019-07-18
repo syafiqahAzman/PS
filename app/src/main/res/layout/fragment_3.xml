@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#2271b3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frag3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:text="It is impossible to sneeze with your eyes open
+\n\nA cockroach can live several weeks with its head cut off!
+\n\nYou can't kill yourself by holding your breath" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:text="Change colour"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+        />
+
+</FrameLayout>
